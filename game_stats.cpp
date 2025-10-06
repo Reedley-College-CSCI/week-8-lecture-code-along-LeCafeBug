@@ -2,6 +2,9 @@
 
 #include <iostream>
 using namespace std;
+
+void showDrive()
+
 int main() {
     cout << "Detroit Lions at Baltimore Ravens" << endl
     << "Sept 29, 2025 Game Statistics" << endl;
@@ -10,6 +13,18 @@ int main() {
     cout << "First drive yards: " << yards[0] << endl;
     cout << "Epic second drive: " << yards[1] << " yards" << endl;
 
-    
+    showDrive();
+    showDrive();
+    //display memory of array
+    cout << "Array memory: ~" << sizeof(yards) << " bytes" << endl;
+
     return 0;
+}
+
+void showDrive()
+{
+    static int driveNum = 1;
+        cout << "Showing drive " << driveNum endl;
+    driveNum++;
+
 }
