@@ -4,11 +4,12 @@
 using namespace std;
 
 void showDrive()
+void showYards(int arr[], int size)
 
 int main() {
     cout << "Detroit Lions at Baltimore Ravens" << endl
     << "Sept 29, 2025 Game Statistics" << endl;
-    int size = 10;
+    const int size = 10;
     int yards[10] = {67, 98, 60, 94, 35, 25, 45, 50, 30, 40};
     cout << "First drive yards: " << yards[0] << endl;
     cout << "Epic second drive: " << yards[1] << " yards" << endl;
@@ -42,9 +43,11 @@ int main() {
 
     int plays[size] = (11, 18, 10, 12, 5, 4, 6, 7, 5, 6);
     for (int i = 0; i < size; i++) {
-        cout << "Drive " << i + 1 << ": " << plays[i] << endl;
+        cout << "Drive " << i + 1 << ": " << plays[i] << " plays, "
+            << yards[1] << " yds" << endl;
 
     }
+
 
 
     return 0;
@@ -56,4 +59,9 @@ void showDrive()
         cout << "Showing drive " << driveNum endl;
     driveNum++;
 
+}
+
+void showYards(int arr[], int size) 
+{
+    for (nt i = 0; 1)
 }
