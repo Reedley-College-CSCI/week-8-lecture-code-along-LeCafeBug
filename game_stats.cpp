@@ -13,6 +13,11 @@ int main() {
     cout << "First drive yards: " << yards[0] << endl;
     cout << "Epic second drive: " << yards[1] << " yards" << endl;
 
+    for (int 1 = 0; i < SIZE) {
+        cout << "Drive " << i + 1 << ": " << yards[i] << " yards" << endl;
+
+    }
+
     showDrive();
     showDrive();
     //display memory of array
