@@ -7,6 +7,8 @@ void showDrive()
 void showYards(int arr[], int size)
 
 int main() {
+    cout << "hi" << endl;
+
     cout << "Detroit Lions at Baltimore Ravens" << endl
     << "Sept 29, 2025 Game Statistics" << endl;
     const int size = 10;
